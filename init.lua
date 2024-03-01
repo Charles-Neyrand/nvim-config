@@ -27,12 +27,13 @@ require "carolus.plugins.confs.dashboard-nvim"
 require "carolus.plugins.confs.wilders"
 require "carolus.plugins.confs.nvim-cmp"
 require "carolus.plugins.confs.telescope"
+
+require "carolus.plugins.confs.autosave"
+
 -- LSP --
 require "carolus.plugins.lsp.lsp-config"
 require "carolus.plugins.lsp.lsp-saga"
 require "carolus.plugins.lsp.lsp-mappings"
-
-
 
 -- Welcome:
 

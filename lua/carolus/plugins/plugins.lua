@@ -99,4 +99,7 @@ return packer.startup(function(use)
 	-- Dashboard
 	use { 'nvimdev/dashboard-nvim' }
 
+	-- Auto  Save
+	use { 'pocco81/auto-save.nvim' }
+
 end)
