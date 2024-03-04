@@ -24,11 +24,13 @@ require "carolus.plugins.confs.statusline"
 require "carolus.plugins.confs.gitsigns"
 require "carolus.plugins.confs.dashboard-nvim"
 
-require "carolus.plugins.confs.wilders"
+--require "carolus.plugins.confs.wilders"
 require "carolus.plugins.confs.nvim-cmp"
 require "carolus.plugins.confs.telescope"
 
 require "carolus.plugins.confs.autosave"
+
+require "carolus.plugins.confs.noice"
 
 -- LSP --
 require "carolus.plugins.lsp.lsp-config"

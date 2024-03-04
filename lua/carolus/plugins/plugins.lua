@@ -73,7 +73,7 @@ return packer.startup(function(use)
 			'hrsh7th/cmp-nvim-lua',
 			'hrsh7th/cmp-path', 'hrsh7th/cmp-calc',
 			'onsails/lspkind.nvim',
-			'hrsh7th/cmp-vsnip', 'hrsh7th/vim-vsnip',
+			'hrsh7th/cmp-vsnip', 'hrsh7th/vim-vsnip', "hrsh7th/cmp-cmdline",
 		}
 	}
 
@@ -101,5 +101,8 @@ return packer.startup(function(use)
 
 	-- Auto  Save
 	use { 'pocco81/auto-save.nvim' }
+
+	-- UI 
+	use { "folke/noice.nvim",     "MunifTanjim/nui.nvim" }
 
 end)

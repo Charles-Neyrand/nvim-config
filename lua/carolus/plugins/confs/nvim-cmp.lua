@@ -41,6 +41,7 @@ cmp.setup( {
 		{ name = "nvim_lsp" }, -- For nvim-lsp
 		{ name = "path" }, -- for path completion
 		{ name = "calc" }, -- for calc
+		{ name = "cmdline" },
 		{ name = "vsnip" },
 	},
 	completion = {
