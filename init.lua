@@ -38,5 +38,4 @@ require "carolus.plugins.lsp.lsp-saga"
 require "carolus.plugins.lsp.lsp-mappings"
 
 -- Welcome:
-
 require("notify")("Welcome Back!")

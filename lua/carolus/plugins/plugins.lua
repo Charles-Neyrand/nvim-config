@@ -100,7 +100,8 @@ return packer.startup(function(use)
 	use { 'nvimdev/dashboard-nvim' }
 
 	-- Auto  Save
-	use { 'pocco81/auto-save.nvim' }
+	--
+	use { 'okuuva/auto-save.nvim' }
 
 	-- UI 
 	use { "folke/noice.nvim",     "MunifTanjim/nui.nvim" }
@@ -113,6 +114,10 @@ return packer.startup(function(use)
 			vim.o.timeoutlen = 300
 			require("which-key").setup { }
 		end
+	}
+
+	use {
+		"Seowlfh/heptagon.nvim"
 	}
 
 end)

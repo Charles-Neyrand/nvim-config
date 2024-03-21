@@ -1,2 +1,6 @@
 local autosave = require("auto-save")
-autosave.setup()
+autosave.setup({
+	execution_message = {
+		enabled = false,
+	},
+})
